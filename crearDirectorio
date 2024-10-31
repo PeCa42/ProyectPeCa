@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Nombre del directorio a crear (puedes cambiarlo)
-directorio_a_crear="mi_nuevo_directorio"
+directorio_a_crear="peluches"		
 
 # Comprobamos si el directorio ya existe
 if [ -d "$directorio_a_crear" ]; then
   echo "El directorio '$directorio_a_crear' ya existe."
 else
-  # Creamos el directorio
+  # Creamos el directorio	
   mkdir "$directorio_a_crear"
   echo "El directorio '$directorio_a_crear' se ha creado correctamente."
-fi
+fi	
